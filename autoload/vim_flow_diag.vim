@@ -24,4 +24,5 @@ function! vim_flow_diag#Generate_flow_diagram(pluginPath)
   :bd
   execute "tabn " . originTab
 
+  call system("open " . out)
 endfunction
